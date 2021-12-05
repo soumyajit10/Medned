@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Med Ned</string>
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <string name="action_delete_all_entries">Delete All Meds</string>
+    <string name="editor_activity_title_new_pet">Add a Pet</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="category_overview">Overview</string>
+    <string name="category_gender">Availability</string>
+
+    <string name="category_measurement">Measurement</string>
+    <string name="hint_pet_name">Name</string>
+    <string name="hint_pet_breed">Genre</string>
+    <string name="hint_pet_weight">Quantity</string>
+    <string name="unit_pet_weight">piece</string>
+    <string name="med_unknown">Unknown</string>
+    <string name="med_available">Available</string>
+    <string name="med_unavailable">UnAvailable</string>
+    <string name="facing_error">Error</string>
+    <string name="successfully_done">successfully saved </string>
+    <string name="medicine">medicine requies a name</string>
+    <string name="edit_pet">Edit Med</string>
+    <string name="update_successful">Update Successful</string>
+    <string name="update_declined">Update Declined</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_successful">Successfully Deleted</string>
+    <string name="editor_delete_failed">Error with Deleting</string>
+    <string name="delete_dialog_msg">Delete this pet</string>
+    <string name="unknown">Unknown Genre</string>
+    <string name="orderMeds">Med stores nearby</string>
+    <string name="covid_helpline">Covid Help Line number</string>
+    <string name="positive">positive case:</string>
+
+</resources>

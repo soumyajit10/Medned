@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_gender_options">
+
+    <item>@string/med_unknown</item>
+
+    <item>@string/med_available</item>
+
+    <item>@string/med_unavailable</item>
+
+</string-array>
+
+
+
+</resources>

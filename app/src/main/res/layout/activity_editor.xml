@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout tools:context=".EditorActivity"
+    android:padding="@dimen/activity_margin"
+    android:background="#D7BDE2"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_overview"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:paddingLeft="4dp"
+            android:layout_weight="2">
+
+            <EditText
+                style="@style/EditorFieldStyle"
+                android:inputType="textCapWords"
+                android:hint="@string/hint_pet_name"
+                android:id="@+id/edit_pet_name"/>
+
+            <EditText
+                style="@style/EditorFieldStyle"
+                android:inputType="textCapWords"
+                android:hint="@string/hint_pet_breed"
+                android:id="@+id/edit_pet_breed"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/container_gender">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_gender"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2">
+
+            <Spinner
+        android:layout_height="48dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/spinner_gender"
+        android:spinnerMode="dropdown"
+        android:paddingRight="16dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/container_measurement">
+        <TextView
+        style="@style/CategoryStyle"
+        android:text="@string/category_measurement"/>
+
+        <RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="0dp"
+    android:paddingLeft="4dp"
+    android:layout_weight="2">
+
+            <EditText style="@style/EditorFieldStyle"
+        android:inputType="number"
+        android:hint="@string/hint_pet_weight"
+        android:id="@+id/edit_pet_weight"/>
+
+
+
+
+    <TextView
+        style="@style/EditorUnitsStyle"
+        android:text="@string/unit_pet_weight"
+        android:id="@+id/label_weight_units"/>
+
+</RelativeLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
